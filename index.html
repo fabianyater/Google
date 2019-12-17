@@ -6,55 +6,63 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Google</title>
+    <link rel="stylesheet" href="CSS/style.css">
     <link rel="icon" type="image/png" href="img/favicon-google.png" />
 </head>
 
 <body>
-    <div class="pc">
-        <header>
-            <nav class="nav-bar">
-                <div class="nav-r">
-                    <ul>
-                        <li>
-                            <a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a>
-                        </li>
-                        <li><a href="https://www.google.com.co/imghp?hl=es&tab=wi&ogbl">Imágenes</a>
-                        </li>
-                        <li>
-                            <a href="#Apps">Aplicaciones de Google</a>
-                        </li>
-                        <li>
-                            <button><a
-                                    href="https://accounts.google.com/ServiceLogin?hl=es&passive=true&continue=https://www.google.com/">Iniciar
-                                    sesión</a></button>
-                        </li>
-                    </ul>
+    <div id="container">
+        <nav id="main-nav">
+            <div id="nav-r">
+                <a id="gml" href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a>
+                <a id="imgs" href="https://www.google.com.co/imghp?hl=es&tab=wi&ogbl">Imágenes</a>
+                <a id="apps"><img src="img/cubes.png" alt="apps"></a>
+                <div id="sign-container">
+                    <div class="sign-in">
+                        <a id="log" href="https://accounts.google.com/ServiceLogin?hl=es&passive=true&continue=https://www.google.com/">Iniciar sesión</a>
+                    </div>
                 </div>
-            </nav>
-        </header>
-        <div class="google-logo">
+            </div>
+        </nav>
+        <div id="google-logo">
             <img src="img/googlelogo_color_272x92dp.png" alt="google-logo">
         </div>
-        <div class="search-container">
-            <input type="text" name="search" id="search">
-            <div class="button-search">
+        <div id="search-container">
+            <div id="search-bar">
+                <input type="text" name="search" id="search">
+                <img src="img/search-icon.png" alt="icono">
+            </div>
+            <div id="button-search">
                 <input type="button" value="Buscar con Google">
                 <input type="button" value="Me siento con suerte">
                 <span>Ofrecido por Google en: <a
                         href="https://www.google.com/setprefs?sig=0_pAfLb3l05kyj5_umh9BMNJw0o08%3D&hl=es-419&source=homepage&sa=X&ved=0ahUKEwjA3oDIibzmAhXMzlkKHXzrDF0Q2ZgBCA0">Español(Latinoamérica)</a></span>
             </div>
         </div>
-        <footer class="bottom">
-            <div class="col">
+        <footer id="bottom">
+            <div id="col">
                 <span>Colombia</span>
             </div>
-            <div class="bottom-left">
-                    <ul>
-                        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjA3oDIibzmAhXMzlkKHXzrDF0QkdQCCBQ&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fes_co%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&usg=AOvVaw3rrdPDmaplOng1_KTmo7NX">Publicidad</a></li>
-                        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjA3oDIibzmAhXMzlkKHXzrDF0QktQCCBU&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K">Negocios</a></li>
-                        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjA3oDIibzmAhXMzlkKHXzrDF0QkNQCCBY&url=https%3A%2F%2Fabout.google%2F%3Futm_source%3Dgoogle-CO%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw0R9i_MrNQ6svZPqUBXIqUz">Sobre Google</a></li>
-                        <li><a href="https://google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a></li>
-                    </ul>
+            <div id="bottom-left">
+                <ul>
+                    <li><a
+                            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjA3oDIibzmAhXMzlkKHXzrDF0QkdQCCBQ&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fes_co%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&usg=AOvVaw3rrdPDmaplOng1_KTmo7NX">Publicidad</a>
+                    </li>
+                    <li><a
+                            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjA3oDIibzmAhXMzlkKHXzrDF0QktQCCBU&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K">Negocios</a>
+                    </li>
+                    <li><a
+                            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjA3oDIibzmAhXMzlkKHXzrDF0QkNQCCBY&url=https%3A%2F%2Fabout.google%2F%3Futm_source%3Dgoogle-CO%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw0R9i_MrNQ6svZPqUBXIqUz">Sobre
+                            Google</a></li>
+                    <li><a href="https://google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a></li>
+                </ul>
+            </div>
+            <div id="bottom-right">
+                <ul>
+                    <li><a href="">Privacidad</a></li>
+                    <li><a href="">Condiciones</a></li>
+                    <li><a href="">Preferencias</a></li>
+                </ul>
             </div>
         </footer>
     </div>
