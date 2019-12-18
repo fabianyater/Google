@@ -84,9 +84,9 @@ a{
     white-space: nowrap;
 }
 
+
 #log{
     color:#fff;
-    cursor: pointer;
     text-decoration: none;
     border: 1px solid#4285f4;
     font-weight: bold;
@@ -96,6 +96,10 @@ a{
     line-height: 28px;
     padding: 0 12px;
     border-radius: 2px;
+}
+
+#log:hover{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
 }
 
 #google-logo{
@@ -131,8 +135,8 @@ margin: auto;
     background-size: 25px;
     vertical-align: middle;
     margin: auto;
-        margin-right: auto;
-        margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
     margin-left: 14px;
     margin-right: 13px;
     color: 
@@ -151,7 +155,7 @@ margin: auto;
     display: flex;
     flex: 100%;
     font: 16px arial,sans-serif;
-        line-height: normal;
+    line-height: normal;
     line-height: 34px;
     height: 34px !important;
     text-rendering: auto;
