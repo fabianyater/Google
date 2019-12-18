@@ -19,25 +19,34 @@
                 <a id="apps"><img src="img/cubes.png" alt="apps"></a>
                 <div id="sign-container">
                     <div class="sign-in">
-                        <a id="log" href="https://accounts.google.com/ServiceLogin?hl=es&passive=true&continue=https://www.google.com/">Iniciar sesión</a>
+                        <a id="log"
+                            href="https://accounts.google.com/ServiceLogin?hl=es&passive=true&continue=https://www.google.com/">Iniciar
+                            sesión</a>
                     </div>
                 </div>
             </div>
         </nav>
+
         <div id="google-logo">
-            <img src="img/googlelogo_color_272x92dp.png" alt="google-logo">
+            <img id="img-logo" src="img/googlelogo_color_272x92dp.png" alt="google-logo">
         </div>
         <div id="search-container">
-            <div id="search-bar">
-                <input type="text" name="search" id="search">
-                <img src="img/search-icon.png" alt="icono">
-            </div>
-            <div id="button-search">
-                <input type="button" value="Buscar con Google">
-                <input type="button" value="Me siento con suerte">
-                <span>Ofrecido por Google en: <a
-                        href="https://www.google.com/setprefs?sig=0_pAfLb3l05kyj5_umh9BMNJw0o08%3D&hl=es-419&source=homepage&sa=X&ved=0ahUKEwjA3oDIibzmAhXMzlkKHXzrDF0Q2ZgBCA0">Español(Latinoamérica)</a></span>
-            </div>
+            <span id="glass">
+                <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                    </path>
+                </svg>
+            </span>
+            <input type="text" name="search" class="searchbox">
+        </div>
+        <div id="button-search">
+            <input id="bus" type="button" value="Buscar con Google">
+            <input id="lucky" type="button" value="Me siento con suerte">
+        </div>
+        <div id="lat">
+            Ofrecido por Google en: 
+            <a href="#">Español(Latinoamérica)</a>
         </div>
         <footer id="bottom">
             <div id="col">
